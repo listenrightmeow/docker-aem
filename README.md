@@ -8,6 +8,8 @@ Both Dockerfile and Docker-Compose files can be used cross-platform.
 
 Place your version of AEM in the /aem directory along with the license. If you intend on implementing automated builds with your github repository for your project, you'll need to move the CQ jar and license files to somewhere that Dockerhub can access it. This repository uses signed urls with AWS S3 + Cloudfront. Dockerhub does not support [LFS](https://git-lfs.github.com/).
 
+This repository utilizes VirtualBox and the VirtualBox filesystem (vboxsf). If volume speed is an issue, it is suggested that repositories like [Dinghy](https://github.com/codekitchen/dinghy) are looked at for off the shelf NFS functionality.
+
 ##### Install VirtualBox and VirtualBox Extension Pack
 
 ```
