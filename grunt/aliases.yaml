@@ -1,0 +1,17 @@
+aws:
+  - 's3'
+
+upload:
+  - 'config'
+  - 'signature'
+  - 'params'
+  - 'aws'
+
+signuri:
+  - 'config'
+  - 'signature'
+  - 'params'
+
+params:
+  - 'copy:reset'
+  - 'copy:cloudfront'

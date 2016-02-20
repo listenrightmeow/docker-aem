@@ -1,0 +1,8 @@
+aem:
+  image: aem
+  container_name: author
+  ports:
+    - 4502:4502
+  privileged: true
+  volumes:
+    - ../../site:/var/www/site

@@ -1,0 +1,12 @@
+.DS_Store
+.editorconfig
+*.log
+
+.idea/
+aem/*
+config/*
+node_modules/*
+site/**/
+
+!aem/.gitkeep
+!config/.gitkeep
